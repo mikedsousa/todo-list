@@ -30,9 +30,6 @@
 
 // console.log("Outro código");
 
-
-
-
 // 4 - Falha na promisse
 
 // Promise.resolve(4 * "asd")
@@ -43,5 +40,28 @@
 //   })
 //   .catch((err) => console.log(err.message));
 
+// 5 - Rejeição
 
+// function checkNumber(n) {
+//   return new Promise((resolve, reject) => {
+//     if (n > 10) {
+//       resolve(`O numero é maior que 10`);
+//     } else {
+//       reject(new Error(`Número muito baixo`));
+//     }
+//   });
+// }
+
+// const a = checkNumber(21);
+// const b = checkNumber(10);
+
+// a.then((v) =>
+//   console.log(`O resultado é ${v}`)
+//   .catch((err) => console.log(err))
+// );
+
+// b.then((v) =>
+//   console.log(`O resultado é ${v}`)
+//   .catch((err) => console.log(err))
+// );
 
