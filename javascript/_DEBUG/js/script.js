@@ -5,6 +5,8 @@
 
 const opa = "teste";
 
+// comment
+
 //const undefined = 10;
 
 // delete [].length;
